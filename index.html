@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rastreamento de Encomendas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rastreamento de Encomendas</h1>
+    <form>
+      <label for="codigo">Código de rastreamento:</label>
+      <input type="text" id="codigo" name="codigo" placeholder="Insira o código de rastreamento">
+      <button type="submit">Pesquisar</button>
+    </form>
+    <div class="status">
+      <h2>Status:</h2>
+      <p id="status"></p>
+    </div>
+    <ul id="eventos"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
